@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="ru.marten.pockemonapp.view.GameFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        >
+
+    <ImageView
+        android:id="@+id/img_creature_to_catch"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/pocemon_1"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/img_pockeball"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/poceball"
+        android:layout_centerInParent="true"
+        />
+
+    </RelativeLayout>
+
+</LinearLayout>

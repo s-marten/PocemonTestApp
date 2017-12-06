@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PockemonApp</string>
+    <string name="title_agility">ловкость</string>
+    <string name="title_health">Здоровье</string>
+    <string name="title_strength">Сила</string>
+</resources>
